@@ -28,6 +28,12 @@
         left: 6%;
     }
 
+    .collapse.my-collapse-right{
+        position: absolute;
+        top: 0;
+        right: 6%;
+    }
+
     .my-collapse .my-list-inline{
         display: inline-block;
     }
