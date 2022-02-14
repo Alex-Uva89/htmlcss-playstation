@@ -23,3 +23,18 @@
     width: 100%;
     height: auto;
 }
+
+@media screen and (min-width: 768px){
+
+    
+    .my-collapse .my-list-inline{
+        display: inline-block;
+    }
+
+    .my-list-inline:active .my-list-inline-item{
+        display: inline-block;
+    }
+
+
+}
+    
