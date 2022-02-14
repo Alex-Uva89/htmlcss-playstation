@@ -18,3 +18,8 @@
 .my-collapse{
     padding-top: 5em;
 }
+
+.my-collapse img{
+    width: 100%;
+    height: auto;
+}
