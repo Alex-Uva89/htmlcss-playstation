@@ -24,24 +24,35 @@
 
     .collapse.my-collapse{
         position: absolute;
-        top: 0;
-        left: 6%;
+        top: 0%;
+        left: 7%;
     }
 
     .collapse.my-collapse-right{
         position: absolute;
         top: 0;
-        right: 6%;
+        right: 7%;
     }
 
-    .my-collapse .my-list-inline{
-        display: inline-block;
+    .my-list{
+        display: flex;
+        flex-wrap: nowrap;
     }
 
-    .my-list-inline:active .my-list-inline-item{
-        display: inline-block;
+    .collapse .my-list .my-list-md {
+        display: inline;
+        margin: 0 5px;
     }
 
+    .my-list-inline-right{
+        position: absolute;
+        top: 60%;
+        right: 0%;
+    }
+
+    .my-collapse li{
+        text-align: end;
+    }
 
 }
     
