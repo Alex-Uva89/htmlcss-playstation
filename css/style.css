@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+#logo-sony{
+    width: 15vh;
+}
+
 .my-navbar{
     position: fixed;
     top: 20px;
     left: 0;
     right: 0;
+}
+
+.my-collapse{
+    padding-top: 5em;
 }
