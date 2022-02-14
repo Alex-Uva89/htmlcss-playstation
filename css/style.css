@@ -15,10 +15,6 @@
     right: 0;
 }
 
-.my-collapse{
-    padding-top: 5em;
-}
-
 .my-collapse img{
     width: 100%;
     height: auto;
@@ -26,7 +22,12 @@
 
 @media screen and (min-width: 768px){
 
-    
+    .collapse.my-collapse{
+        position: absolute;
+        top: 0;
+        left: 6%;
+    }
+
     .my-collapse .my-list-inline{
         display: inline-block;
     }

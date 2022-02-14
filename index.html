@@ -13,10 +13,11 @@
 </head>
 
 <body>
-    <!-- ::::HEADER:LOGO SONY:::: -->
-    <header class="bg-black fixed-top d-flex justify-content-end align-items-center">
+    <header class="d-flex">
+    <!-- ::::SECTION:LOGO SONY:::: -->
+    <div class="bg-black fixed-top d-flex justify-content-end align-items-center">
         <img src="img/sony_logo.svg" alt="Logo Sony" id="logo-sony" class="py-1">
-    </header>
+    </div>
     <!-- ::::::NAV-BAR::::: -->
     <nav class="navbar navbar-light bg-white my-navbar">
         <div class="container-fluid">
@@ -27,108 +28,109 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-    </nav>
-
-    <!-- ::::NAV-COLLAPSE:::: -->
-    <div class="collapse my-collapse d-md-flex" id="navbarToggleExternalContent">
-        <div class="bg-white p-4">
-            <ul class="list-unstyled">
-                <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemGame" role="button"
-                    aria-expanded="false" aria-controls="collapseItemGame">
-                    Giochi
-                    <ul class="row row-cols-3 collapse list-unstyled" id="collapseItemGame">
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                    </ul>
-                </li>
-                <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemHardware" role="button"
-                    aria-expanded="false" aria-controls="collapseItemHardware">Hardware
-                    <ul class="row row-cols-3 collapse list-unstyled my-list my-list-inline-item"
-                        id="collapseItemHardware">
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                    </ul>
-                </li>
-                <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemService" role="button"
-                    aria-expanded="false" aria-controls="collapseItemService">Servizi
-                    <ul class="row row-cols-3 collapse list-unstyled my-list-inline-item" id="collapseItemService">
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                    </ul>
-                </li>
-                <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemNews" role="button"
-                    aria-expanded="false" aria-controls="collapseItemNews">Novità
-                    <ul class="row row-cols-3 collapse list-unstyled" id="collapseItemNews">
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                    </ul>
-                </li>
-                <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemSell" role="button"
-                    aria-expanded="false" aria-controls="collapseItemSell">Fai acquisti
-                    <ul class="row row-cols-3 collapse list-unstyled" id="collapseItemSell">
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                    </ul>
-                </li>
-                <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemSupport" role="button"
-                    aria-expanded="false" aria-controls="collapseItemSupport">Supporto
-                    <ul class="row row-cols-3 collapse list-unstyled" id="collapseItemSupport">
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                        <li class="col-4 list-inline-item m-0">
-                            <img src="img/play-menu-ico.png" alt="Icone Menu">
-                        </li>
-                    </ul>
-                </li>
-
-            </ul>
+        <div class="collapse my-collapse d-md-block" id="navbarToggleExternalContent">
+            <div class="bg-white p-4">
+                <ul class="list-unstyled">
+                    <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemGame" role="button"
+                        aria-expanded="false" aria-controls="collapseItemGame">
+                        Giochi
+                        <ul class="row row-cols-3 collapse list-unstyled" id="collapseItemGame">
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemHardware" role="button"
+                        aria-expanded="false" aria-controls="collapseItemHardware">Hardware
+                        <ul class="row row-cols-3 collapse list-unstyled my-list my-list-inline-item"
+                            id="collapseItemHardware">
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemService" role="button"
+                        aria-expanded="false" aria-controls="collapseItemService">Servizi
+                        <ul class="row row-cols-3 collapse list-unstyled my-list-inline-item" id="collapseItemService">
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemNews" role="button"
+                        aria-expanded="false" aria-controls="collapseItemNews">Novità
+                        <ul class="row row-cols-3 collapse list-unstyled" id="collapseItemNews">
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemSell" role="button"
+                        aria-expanded="false" aria-controls="collapseItemSell">Fai acquisti
+                        <ul class="row row-cols-3 collapse list-unstyled" id="collapseItemSell">
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="my-list-inline" data-bs-toggle="collapse" href="#collapseItemSupport" role="button"
+                        aria-expanded="false" aria-controls="collapseItemSupport">Supporto
+                        <ul class="row row-cols-3 collapse list-unstyled" id="collapseItemSupport">
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                            <li class="col-4 list-inline-item m-0">
+                                <img src="img/play-menu-ico.png" alt="Icone Menu">
+                            </li>
+                        </ul>
+                    </li>
+    
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
+    <!-- ::::NAV-COLLAPSE:::: -->
+    </header>
+
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
