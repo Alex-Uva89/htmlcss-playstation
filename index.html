@@ -7,15 +7,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playstatio by Uva</title>
 
+    <!-- :::::::link: bootstrap:::::::::::: -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- ::::::::::::::::link fontawesome:::::::::::::::::: -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <header class="fixed-top">
+    <!-- :::::::::HEADER-TOP:::::::::::::::::: -->
+        <div class="d-flex bg-dark align-item-center justify-content-end">
+            <img class="my-w-15 p-1" src="img/sony_logo.svg" alt="Logo Sony">
+        </div>
+    <!-- :::::::::HEADER-BOTTOM:::::::::::::::::: -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Giochi
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <img src="img/play-menu-ico.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <img src="img/play-menu-ico.png" alt="">
+                        </a>
+                    </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>  
+            </ul>
+              <button class="btn btn-dark rounded-pill" type="submit">
+                Accedi
+              </button>
+        </div>
+      </nav>
+    </header> 
+    <!-- :::::::::::::::::::::::::::::::::::::
+    ::::::::DA COMPLETARE::::::::::::::::
+    ::::::::::::::::::::::::::::::::::::: -->
 
+    <!-- ::::::::::SECTION:JUMBO::::::::::::::: -->
+    <section class="my-pt-6">
+    <div class="container-fluid my-bg d-flex flex-column justify-content-end">
+        <div class="py-3 my-box text-white">
+            <img src="img/returnal-hero-banner-logo.png" alt="" class="my-img">
+            <h1>Rompi il cerchio</h1>
+            <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in escludiva su ps5.</p>
+            <button class="btn btn-danger px-1 rounded-pill">
+                Acquista ora
+            </button>
+        </div>
+    </div>
+    </section>
 
+    <!-- :::::::::::SECTION:CAROUSEL:::::::::::::: -->
 
+    <section class="py-2">
+        <div class="container-fluid row row-cols-2 row-cols-md-3 row-cols-lg-6">
+            <div class="col-6 col-md-4 col-lg my-card">
+                <img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""class="my-img">
+            </div>
+            <div class="col-6 my-card">
+                <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""class="my-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg my-card">
+                <img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""class="my-img">
+            </div>
+            <div class="col-6 my-card">
+                <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""class="my-img">
+            </div>
+            <div class="col-6 col-md-4 col-lg my-card">
+                <img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""class="my-img">
+            </div>
+            <div class="col-6 my-card">
+                <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""class="my-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ::::::::::::::SECTION:PLAYSTATION5::::::::::: -->
+    
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
