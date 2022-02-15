@@ -1,2 +1,22 @@
+/* GENERIC RULES::::::::::::::::::::::: */
 
+.my-w-15{
+    width: 5rem;
+}
+
+/* SPECIFIC RULES: MY:::::::::::::::::::::::: */
+    
+.my-bg{
+    height: 400px;
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    background-position: center -40px;
+    background-repeat: no-repeat;
+}
+
+
+
+@media screen and (min-width: 576px){
+    
+}
     
