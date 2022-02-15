@@ -24,8 +24,20 @@
     font-size: 1.5rem;
 }
 
+.my-size-1{
+    font-size: 1rem;
+}
+
+.my-size-2{
+    font-size: 2rem;
+}
+
 .my-img{
     width: 100%;
+}
+
+.my-icons{
+    width: 70px;
 }
 
 
@@ -45,9 +57,21 @@
     background-position: center;
 }
 
+footer{
+    background-color: #00439c;
+}
+
 .my-bg-grey{
     background-color: rgb(153, 152, 152);
     background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 600px;
+}
+
+.my-bg-blue{
+    background-color: rgb(23, 28,57);
+    background-image: url(../img/ps-now-april-featured-image-block.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 600px;
@@ -88,9 +112,21 @@
     background-color: rgba(231, 230, 230, 0.849);
 }
 
+footer li{
+    list-style: none;
+}
+
+
+
 @media screen and (min-width:768px) {
     .my-pt-md-6{
         padding-top: 12rem;
+    }
+    .my-bg{
+        /* height: 500px; */
+        background-image: url(../img/jumbo-bg.png);
+        background-size: cover;
+        background-position: center 1px;
     }
     
 }
