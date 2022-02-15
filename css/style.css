@@ -4,19 +4,100 @@
     width: 5rem;
 }
 
+.my-pt-6{
+    padding-top: 5rem;
+}
+
+.my-pt-7{
+    padding-top: 6rem;
+}
+
+.my-bg .my-img{
+    width: 100%;
+}
+
+.my-size-08{
+    font-size: .8rem;
+}
+
+.my-size-title{
+    font-size: 1.5rem;
+}
+
+.my-img{
+    width: 100%;
+}
+
+
 /* SPECIFIC RULES: MY:::::::::::::::::::::::: */
-    
+
 .my-bg{
-    height: 400px;
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    /* height: 500px; */
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position: center -40px;
+    background-position: center;
+}
+
+.my-bg2{
+    /* height: 500px; */
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.my-bg-grey{
+    background-color: rgb(153, 152, 152);
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: 600px;
 }
 
+.my-bg-grey .my-img{
+    width: 50%;
+}
 
+.my-box{
+    max-width: 300px;
+}
 
-@media screen and (min-width: 576px){
+.my-card .my-img{
+    width: 100%;
+    padding: .3rem;
+    border: 1px solid rgb(0, 132, 255);
+    border-radius: 1rem;
+}
+
+.my-container .my-card .my-img,
+.my-thumb .my-img{
+    border: none;
+}
+
+.my-uppercase-1{
+    text-transform: uppercase;
+    margin: 0px;
+    color: rgb(0, 89, 255);
+}
+
+.my-button{
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+    padding: .2rem 1rem;
+    border: 0px solid transparent;
+    border-radius: 2rem;
+    background-color: rgba(231, 230, 230, 0.849);
+}
+
+@media screen and (min-width:768px) {
+    .my-pt-md-6{
+        padding-top: 12rem;
+    }
     
 }
-    
+
+
+
+
+
+
+
