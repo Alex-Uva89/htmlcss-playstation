@@ -1,5 +1,11 @@
 /* GENERIC RULES::::::::::::::::::::::: */
 
+.btn-dark,
+.btn-primary,
+.btn-danger{
+    border-width: 2px;
+}
+
 .my-w-15{
     width: 5rem;
 }
@@ -51,6 +57,19 @@
     list-style-type: disc;
 }
 
+.dropdown-toggle::after{
+    border: 0;
+    content: "\f107";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 35%;
+}
+
+.dropdown-toggle{
+    margin-right: 1rem;
+}
+
 .my-bg{
     /* height: 500px; */
     background-image: url(../img/jumbo-bg.png);
@@ -67,10 +86,6 @@
 
 footer{
     background-color: #00439c;
-}
-
-nav li{
-
 }
 
 .my-bg-grey{
@@ -113,8 +128,6 @@ nav li{
     border-radius: 1rem;
 }
 
-
-
 .my-container .my-card .my-img,
 .my-thumb .my-img{
     border: none;
@@ -133,13 +146,14 @@ nav li{
     border: 0px solid transparent;
     border-radius: 2rem;
     background-color: rgba(231, 230, 230, 0.849);
+    opacity: 80%;
 }
 
 footer li{
     list-style: none;
 }
 
-
+/* :::::::::::::::::::MEDIA SCREEN::::::::::::  */
 
 @media screen and (min-width:768px) {
     .my-pt-md-6{
@@ -155,13 +169,25 @@ footer li{
 }
 
 /* ::::::::::::::HOVER TAB:::::::::::::::: */
-
-.my-hover-button:hover{
-    margin: 0;
-    padding: .2rem .5rem;
-    box-shadow: 0px 0px 15px rgba(0,0,0,150%);
-    border-radius: 2rem;
+.dropdown-toggle:visited .dropdown-toggle::after{
+    border: 0;
+    content: "\f106";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 35%;
 }
+
+
+.btn-dark:hover,
+.btn-primary:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(255,255,255); 
+}   
+
+.btn-danger:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(0,0,0);
+}
+
 
 :not(.my-rest).my-card:hover{
     margin-top: -10px;
@@ -174,8 +200,6 @@ footer li{
 }
 
 
-
-
 .my-opacity:hover{
     opacity: 100%;
     border-bottom: 2px solid rgb(0, 38, 255);
@@ -183,6 +207,9 @@ footer li{
     margin-bottom: -1rem;
 }
 
+.my-button:hover{
+    opacity: 100%;
+}
 
 
 
