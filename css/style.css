@@ -69,6 +69,10 @@ footer{
     background-color: #00439c;
 }
 
+nav li{
+
+}
+
 .my-bg-grey{
     background-color: rgb(153, 152, 152);
     background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
@@ -93,12 +97,23 @@ footer{
     max-width: 300px;
 }
 
+.my-card{
+    margin-top: 0px;
+    transition: margin-top .5s;
+}
+
+.my-opacity{
+    opacity: 50%;
+    transition: opacity .3s;
+}
+
 .my-card .my-img{
     width: 100%;
     padding: .3rem;
-    border: 1px solid rgb(0, 132, 255);
     border-radius: 1rem;
 }
+
+
 
 .my-container .my-card .my-img,
 .my-thumb .my-img{
@@ -138,6 +153,36 @@ footer li{
     }
     
 }
+
+/* ::::::::::::::HOVER TAB:::::::::::::::: */
+
+.my-hover-button:hover{
+    margin: 0;
+    padding: .2rem .5rem;
+    box-shadow: 0px 0px 15px rgba(0,0,0,150%);
+    border-radius: 2rem;
+}
+
+:not(.my-rest).my-card:hover{
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.my-card:hover .my-bord{
+    border: 1px solid rgb(0, 132, 255);
+    border-radius: 1rem;
+}
+
+
+
+
+.my-opacity:hover{
+    opacity: 100%;
+    border-bottom: 2px solid rgb(0, 38, 255);
+    padding-bottom: 1rem;
+    margin-bottom: -1rem;
+}
+
 
 
 
