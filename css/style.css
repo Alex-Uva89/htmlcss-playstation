@@ -57,17 +57,50 @@
     list-style-type: disc;
 }
 
-.dropdown-toggle::after{
+#navbarSupportedContent .dropdown-toggle::after{
     border: 0;
-    content: "\f107";
-    font-family: 'Font Awesome 6 Free';
-    font-weight: 900;
-    position: absolute;
-    top: 35%;
 }
 
 .dropdown-toggle{
     margin-right: 1rem;
+}
+
+.my-game::before,
+.my-news::before,
+.my-service::before,
+.my-hardware::before,
+.my-sell::before,
+.my-support::before{
+    content: "\f107";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 25%;
+}
+
+.my-game::before,
+.my-news::before,
+.my-service::before{
+    left: 90px;
+}
+
+.my-hardware::before,
+    .my-support::before{
+    left: 90px;
+}
+
+.my-sell::before{
+    left: 90px;
+}
+
+
+.my-my-playstation::before{
+    content: "\f107";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 21%;
+    left: 90px;
 }
 
 .my-bg{
@@ -165,17 +198,103 @@ footer li{
         background-size: cover;
         background-position: center 1px;
     }
+}
+    @media screen and (min-width:992px){
+    .my-game::before,
+    .my-news::before,
+    .my-service::before{
+        left: 60px;
+    }
+
+    .my-hardware::before,
+    .my-support::before{
+        left: 85%;
+    }
+
+    .my-sell::before{
+        left: 90%;
+    }
+
+    #navbarSupportedContent:active .my-game::before,
+    #navbarSupportedContent:active .my-news::before,
+    #navbarSupportedContent:active .my-service::before,
+    #navbarSupportedContent:active .my-hardware::before,
+    #navbarSupportedContent:active .my-sell::before,
+    #navbarSupportedContent:active .my-support::before{
+    content: "\f106";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 25%;
+    }
+
+    #navbarSupportedContent:active .my-game::before,
+    #navbarSupportedContent:active .my-news::before,
+    #navbarSupportedContent:active .my-service::before{
+    left: 60px;
+    }
+
+    #navbarSupportedContent:active .my-hardware::before,
+    #navbarSupportedContent:active .my-support::before{
+    left: 75%;
+    }
+
+    #navbarSupportedContent:active .my-sell::before{
+    left: 80%;
+    }
+
+    .my-my-playstation::before{
+        left: -10px;
+
+    }
+
+    #navbarSupportedContent:active .my-my-playstation::before {
+        border: 0;
+        content: "\f106";
+        right: -10px;
+    }
+
     
 }
 
 /* ::::::::::::::HOVER TAB:::::::::::::::: */
-.dropdown-toggle:visited .dropdown-toggle::after{
+#navbarSupportedContent:active .my-my-playstation::before {
     border: 0;
     content: "\f106";
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     position: absolute;
-    top: 35%;
+    top: 21%;
+    right: 70px;
+}
+
+
+#navbarSupportedContent:active .my-game::before,
+#navbarSupportedContent:active .my-news::before,
+#navbarSupportedContent:active .my-service::before,
+#navbarSupportedContent:active .my-hardware::before,
+#navbarSupportedContent:active .my-sell::before,
+#navbarSupportedContent:active .my-support::before{
+    content: "\f106";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 25%;
+}
+
+#navbarSupportedContent:active .my-game::before,
+#navbarSupportedContent:active .my-news::before,
+#navbarSupportedContent:active .my-service::before{
+    left: 90px;
+}
+
+#navbarSupportedContent:active .my-hardware::before,
+#navbarSupportedContent:active .my-support::before{
+    left: 90px;
+}
+
+#navbarSupportedContent:active .my-sell::before{
+    left: 90px;
 }
 
 
