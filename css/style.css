@@ -43,6 +43,14 @@
 
 /* SPECIFIC RULES: MY:::::::::::::::::::::::: */
 
+.lens{
+    width: 40px;
+}
+
+.my-list-style{
+    list-style-type: disc;
+}
+
 .my-bg{
     /* height: 500px; */
     background-image: url(../img/jumbo-bg.png);
