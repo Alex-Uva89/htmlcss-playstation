@@ -81,16 +81,16 @@
 .my-game::before,
 .my-news::before,
 .my-service::before{
-    left: 90px;
+    left: 110px;
 }
 
 .my-hardware::before,
     .my-support::before{
-    left: 90px;
+    left: 110px;
 }
 
 .my-sell::before{
-    left: 90px;
+    left: 110px;
 }
 
 
@@ -100,7 +100,7 @@
     font-weight: 900;
     position: absolute;
     top: 21%;
-    left: 90px;
+    left: 110px;
 }
 
 .my-bg{
@@ -215,16 +215,16 @@ footer li{
 .show.my-game::before,
 .show.my-news::before,
 .show.my-service::before{
-    left: 90px;
+    left: 110px;
 }
 
 .show.my-hardware::before,
 .show.my-support::before{
-    left: 90px;
+    left: 110px;
 }
 
 .show.my-sell::before{
-    left: 90px;
+    left: 110px;
 }
 
 
