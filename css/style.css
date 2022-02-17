@@ -10,6 +10,8 @@
     width: 5rem;
 }
 
+.my-h-banner
+
 .my-pt-6{
     padding-top: 5rem;
 }
@@ -104,14 +106,19 @@
 }
 
 .my-bg{
-    /* height: 500px; */
+    height: 600px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
+    margin-top: 100px;
+}
+
+.my-h-banner{
+    height: 100%;
 }
 
 .my-bg2{
-    /* height: 500px; */
+    height: 600px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -124,17 +131,17 @@ footer{
 .my-bg-grey{
     background-color: rgb(153, 152, 152);
     background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-size: contain;
+    background-size: 490px;
     background-repeat: no-repeat;
-    background-position: 600px;
+    background-position: 75%;
 }
 
 .my-bg-blue{
     background-color: rgb(23, 28,57);
     background-image: url(../img/ps-now-april-featured-image-block.png);
-    background-size: contain;
+    background-size: 470px;
     background-repeat: no-repeat;
-    background-position: 600px;
+    background-position: 80%;
 }
 
 .my-bg-grey .my-img{
@@ -238,7 +245,7 @@ footer li{
 }
 
 
-:not(.my-rest).my-card:hover{
+.my-card:not(.my-rest):hover{
     margin-top: -10px;
     cursor: pointer;
 }
